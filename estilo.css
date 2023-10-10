@@ -1,0 +1,149 @@
+* {margin: 0;padding: 0;}
+
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+body {
+    width: 750px;
+    height: 1000px;
+    margin: auto;
+    background-image: url(img/412583-furry-muscles-Anthro.jpg);
+    background-position-y: 40%;
+    background-size: contain;
+    color: #ffffff;
+    -webkit-text-stroke: .5px rgb(0, 0, 0); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    width: 750px;
+    height: 250px;
+    background-color: rgb(212, 94, 242);
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+section#banner,
+section#logo,
+section#login {
+    width: 250px;
+    height: 250px;
+    color: rgb(215, 253, 0);
+    -webkit-text-stroke: .5px rgb(255, 255, 255); 
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="submit"] {
+    background-color: #ff8800;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input[type="text"],
+input[type="password"] {
+    background-color: rgb(8, 176, 218);
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#banner,
+section#logo {
+    float: left;
+}
+
+section#login {
+    float: right;
+}
+
+.caja {
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+}
+
+.uno,
+.dos,
+.tres {
+    position: absolute;
+    top: 20px;
+    left: 5%;
+}
+
+nav {
+    width: 750px;
+    height: 250px;
+    background-image: url(img/412594-furry-muscles-Anthro-Bara.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: hsl(44, 100%, 50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    
+}
+nav a{
+    color: #e1fa00;
+    text-decoration: none;
+    -webkit-text-stroke: 1px rgb(0, 0, 0); 
+}
+
+section#inicio,
+section#producto,
+section#contacto {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+main {
+    width: 750px;
+    height: 250px;
+    background-image: url(img/412594-furry-muscles-Anthro-Bara.jpg);
+    background-size: cover;
+    background-position-y: 89%;
+    background-repeat: no-repeat;
+    color: rgb(255, 186, 0);
+    font-family: 'Miltonian', cursive;
+    font-size: 20px;
+}
+
+aside#hoy,
+article#novedades,
+aside#internacional {
+    width: 250px;
+    height: 250px;
+    float: left;
+    color: #ffffff;
+    
+}
+
+footer {
+    width: 750px;
+    height: 250px;
+    background-image: url(img/412590-furry-muscles-Anthro.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 39%;
+    font-family: 'Galada', cursive;
+    font-size: 18px;
+    color: rgb(165, 0, 0);
+    color: #ffffff;
+}
+
+aside#creditos,
+article#lugar,
+aside#correo {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
